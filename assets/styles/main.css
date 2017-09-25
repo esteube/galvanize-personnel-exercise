@@ -44,6 +44,7 @@ button {
 
 input, select {
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 .role-preview {
@@ -51,4 +52,7 @@ input, select {
     width: var(--size);
     height: var(--size);
     margin-bottom: 1rem;
+}
+.roleSelection {
+  border-radius: 5px;
 }

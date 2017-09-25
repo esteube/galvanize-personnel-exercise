@@ -8,8 +8,20 @@
     <body>
       <h1>Galvanize Personnel</h1>
       <form>
-        <!-- Your code here! -->
+        <h2>First Name</h2>
+        <input type="text" class="" id="firstName" placeholder="First Name">
+        <h2>Last Name</h2>
+        <input type="text" class="" id="lastName" placeholder="Last Name">
+        <h2>Role</h2>
+        <!-- <input type="select" class="form-control" id="role" placeholder="-Select an Option Here-"> -->
+        <select id="roleSelection" class="" name="select">
+          //being populated by for loop app.js lines 14-28
+        </select>
+        <img id="roleImg" src="http://placehold.it/275x275" class="role-preview">
+        <button id="save" type="submit" class="save">Save</button>
+        <p class="save-status"></p>
       </form>
       <script src="./assets/scripts/app.js" charset="utf-8"></script>
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     </body>
 </html>
